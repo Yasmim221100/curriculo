@@ -1,0 +1,58 @@
+h1, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.profile-img {
+  border-radius: 50%;
+  /*border-radius: 50%; faz a imagem ficar redonda*/
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dimgrey;
+}
+
+.nav-list > a > li {
+    color: white;
+}
+
+.projetos-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card > img {
+    max-width: 100%;
+}
